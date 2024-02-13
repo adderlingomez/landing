@@ -1,9 +1,83 @@
-body {
-    background-image: url(../apuestas.jpg);
-    background-repeat: no-repeat;
-    width: 1250px;
-   height: 1250px; 
-    margin: 0;
-    font-family: Arial, sans-serif;
+
+ul li {
+  display: inline;
+  margin-right: 20px;
 }
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #700505;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formulario{
+  background-color: #f2f2f2;
+}
+
+.muestra{
+  background-color: #f2f2f2;
+}
+.contenedor{
+  height: 320px;
+}
+.muestra_contender{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 40px
+}
+.card{
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+}
+.separador{
+  font-size: 25px;
+}
+.separador::before{
+  content: "----";
+}
+.separador::after{
+  content: "-----";
+}
+
+
+
+
+
+
 
